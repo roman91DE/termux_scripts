@@ -7,11 +7,11 @@ REPOS=$(${PREFIX}/bin/ls)
 
 for R in $REPOS
     do
+        echo "Repository: ${R}"
         cd "${PDIR}/${R}"
         git pull
         cd ${PDIR}
     done
 
-echo "Done - Press any key to terminate"
-read TMP
+echo "$(date): Pulled github repositories"
 
