@@ -3,7 +3,7 @@
 PDIR="${HOME}/github"
 cd $PDIR
 
-REPOS=$(/usr/bin/ls)
+REPOS=$(${PREFIX}/bin/ls)
 
 for R in $REPOS
     do
