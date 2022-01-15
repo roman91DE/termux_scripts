@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DIR="/data/data/com.termux/files/home/api_logs"
-FILE= $(date +"%m-%d-%y-%T").log
+FILE="$(date +"%m-%d-%y-%T").log"
 
 cd $DIR
 touch $FILE
