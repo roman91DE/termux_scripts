@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DIR=$HOME/api_logs
+DIR="/data/data/com.termux/files/home/api_logs"
 FILE= $(date +"%m-%d-%y-%T").log
 
 cd $DIR
