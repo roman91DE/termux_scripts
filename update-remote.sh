@@ -27,3 +27,5 @@ for REPO in $LIST
         echo
         cd ${PROJECT_DIR}
     done
+echo "Done - Press any key to terminate"
+read TMP
