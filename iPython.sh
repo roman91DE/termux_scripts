@@ -1,2 +1,2 @@
-echo "starting python ..."
-python -i
+echo "starting ipython ..."
+ipython
