@@ -1,7 +1,7 @@
 #!/bin/sh
 
-DIR="/data/data/com.termux/files/home/api_logs"
-FILE="$(date +"%m-%d-%y-%T").log"
+DIR = "/data/data/com.termux/files/home/api_logs"
+FILE = "$(date +"%m-%d-%y-%T").log"
 
 cd $DIR
 
@@ -17,10 +17,6 @@ termux-infrared-frequencies >> $FILE
 echo "location:" >> $FILE
 echo "---" >> $FILE
 termux-location >> $FILE
-
-# echo "sensors:" >> $FILE
-# echo "---" >> $FILE
-# termux-sensor -a >> $FILE
 
 echo "telephone-cell-info:" >> $FILE
 echo "---" >> $FILE
